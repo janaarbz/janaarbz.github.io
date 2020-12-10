@@ -1,0 +1,344 @@
+@media screen and (max-width: 60em){
+    .background {
+        background-color:rgb(52, 58, 64);
+        width: 100%;
+        height: 700px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        }
+
+        
+
+        .card-body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .carousel {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+           
+            }
+
+            .carousel.slide.index {
+           
+              }
+
+            #carouselExampleIndicators {
+              min-height: 217px;
+            }
+
+            .card-deck{
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: auto;
+                margin-left: 1em;
+                margin-right: 1em;
+              }
+        
+            .cardContainer{
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: auto;
+            
+                border-radius: 8px;
+                margin: 1em;
+              }
+
+
+              .vorteileContent{
+                display: grid;
+                grid-template-columns: auto;
+                row-gap: 25px;
+                margin-right: 1em;
+                margin-left: 1em;
+                min-height: 350px;
+              }
+
+              .vorteileHeader{
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                padding-top: 40px;
+                padding-bottom: 30px;
+              }
+
+
+              .footer {
+                background-color:rgb(52, 58, 64);
+                display: grid;
+                grid-template-columns: auto;
+                width: 100%;
+                height: 450px;
+                padding-top: 20px;
+                padding-bottom: 15px;
+                row-gap: 40px;
+                justify-content: center;
+                align-items: center;
+                }
+
+                
+.footerLinks1 {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 3px;
+  justify-content: left;
+  align-items: center;
+}
+
+.footerLinks2 {
+display: grid;
+grid-template-columns: auto;
+row-gap: 3px;
+justify-content: left;
+align-items: center;
+}
+
+.footerInfos1 {
+display: grid;
+grid-template-columns: auto;
+row-gap: 3px;
+justify-content: left;
+align-items: center;
+}
+
+.impressumFrame {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  height: 100%;
+}
+           
+}
+
+
+
+@media screen and (min-width: 60em){
+
+
+    .background {
+        background-color:rgb(52, 58, 64);
+        display: grid;
+        width: 100%;
+        height: 400px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+  
+        }
+
+        .background2 {
+            background-color:rgb(52, 58, 64);
+            display: grid;
+            width: 100%;
+            height: 100px;
+
+            justify-content: center;
+            align-items: center;
+      
+            }
+        
+    
+
+          .card-body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .carousel.slide.index {
+            max-width: 410px;
+  
+            }
+
+            .carousel {
+              display: grid;
+              justify-content: center;
+              align-items: center;
+              }
+
+            #carouselExampleIndicators {
+              min-height: 307px;
+            }
+
+            .card-deck{
+                display: grid;
+        
+                grid-template-columns: auto auto;
+        
+                padding-top: 1px;
+                margin-left: 20px;
+                margin-right: 20px;
+              }
+              
+              
+              .cardContainer{
+                display: grid;
+                grid-template-columns: 50% 50%;
+            
+                border-radius: 8px;
+                margin: 40px;
+              }
+
+
+              .vorteileContent{
+                display: grid;
+                grid-template-columns: auto auto;
+                column-gap: 50px;
+                row-gap: 50px;
+              }
+
+
+              .footer {
+                background-color:rgb(52, 58, 64);
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                width: 100%;
+                height: 150px;
+                padding-top: 30px;
+                padding-bottom: 15px;
+                }
+
+                
+.footerLinks1 {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLinks2 {
+display: grid;
+grid-template-columns: auto;
+row-gap: 3px;
+justify-content: center;
+align-items: center;
+}
+
+.footerInfos1 {
+display: grid;
+grid-template-columns: auto;
+row-gap: 3px;
+justify-content: center;
+align-items: center;
+}
+
+.impressumFrame {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20%;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  height: 100%;
+  max-width: 70%;
+}
+
+}
+
+
+.vorteileContainer{
+  display: grid;
+  grid-template-rows: 20% 80%;
+  justify-content: center;
+align-items: center;
+}
+
+.vorteileHeader{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+
+
+.vorteilHeader{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+.vorteilContent{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid rgb(224, 221, 221);
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  row-gap: 10px;
+}
+
+
+
+
+
+.footerLinksA {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinksB {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerInfosA {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerInfo {
+  color: rgb(124, 119, 119);
+  height: 3px;
+
+}
+
+.footerHeader {
+  color: white;
+}
+
+   
+  .impressiumLink {
+    color: rgb(124, 119, 119);
+ 
+  }
+  .impressiumLink:hover {
+    text-decoration: none;
+    color: rgb(124, 119, 119);
+  }
+
+  .buttonShowProcess {
+    display: grid; 
+    justify-content: center; 
+    padding-top: 40px;
+  }
+
+
+
+
+    
