@@ -28,6 +28,11 @@ function playPause() {
     song.play(); //plays the song
     playing = false;
     thumbnail.style.width = "160%";
+  //  confetti.maxCount = 150;     //set max confetti count
+confetti.speed = 3;          //set the particle animation speed
+	//confetti.frameInterval = 20; //the confetti animation frame interval in milliseconds
+	confetti.alpha = 0.8;        //the alpha opacity of the confetti (between 0 and 1, where 1 is opaque and 0 is invisible)
+	//confetti.gradient = false;  
     confetti.start()
 
     document.getElementById("song-title").innerHTML = "Frohe Weihnachten Baby"
@@ -37,6 +42,7 @@ function playPause() {
     playing = true;
     thumbnail.style.width = "130%";
     confetti.pause()
+    document.getElementById("song-title").innerHTML = "Starte die Musik"
   }
 }
 

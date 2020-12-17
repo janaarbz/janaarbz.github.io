@@ -16,6 +16,8 @@ body {
   filter: blur(40px);
 }
 
+
+
 .container {
   position: absolute;
   height: 400pt;
@@ -32,6 +34,11 @@ body {
   background: #000;
   border-radius: 8px;
   box-shadow: 0 0 15px black;
+}
+
+.container2 {
+  position: absolute;
+  bottom: 8px;
 }
 
 #thumbnail {
