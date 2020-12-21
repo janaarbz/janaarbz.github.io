@@ -46,6 +46,18 @@ confetti.speed = 3;          //set the particle animation speed
   }
 }
 
+
+var myVid = document.getElementById('video');    
+if (myVid !== null) { // Possibility of no video loaded in DOM
+    myVid.onplay = function () {
+      const song = document.querySelector("#song");
+      pp.src = "http://www.iconarchive.com/download/i91182/icons8/windows-8/Media-Controls-Play.ico";
+      song.pause(); //pauses the song
+      playing = true;
+      thumbnail.style.width = "130%";
+    };
+}
+
 function nextSong() {
   songIndex++;
   if (songIndex > songs.length-1) songIndex = 0;
