@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="MP2.css" />
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script>
+
+    <audio loop src="Jaden Smith - Icon.mp3" id="song"></audio>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQSCaJfLX-LEPmCHcz5fvkcZUrO2_5Z4LeaGe-HiuIYh829Q6YQ" alt="background" id="BG" />
+    <div class="container">
+        <div class="song-name"></div>
+        <div id="song-title" class="song-title">Starte die Musik</div>
+        <img src="images/IMG_8129.jpg" alt="thumbnail" id="thumbnail" />
+        <div class="box"></div>
+        <img src="http://www.iconarchive.com/download/i91182/icons8/windows-8/Media-Controls-Play.ico" alt="play/pause" onclick="playPause()" id="pp" />
+      
+        <input
+          type="range"
+          id="progressBar"
+          min="0"
+          max=""
+          value="0"
+          onchange='const progressBar = document.querySelector("#progressBar");
+          document.querySelector("#song").currentTime = progressBar.value;'
+        >
+      </div>
+
+
+      <div class="container2">
+
+     
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum eum repudiandae delectus fugit ex. Ipsam modi veritatis earum, laudantium sed excepturi ut quam possimus sit deleniti quo eligendi ducimus id.
+    </div>
+    
+    <script src="MP.js"></script>
+  </body>
+</html>
