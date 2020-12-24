@@ -19,6 +19,26 @@ var songs = ["Jaden Smith - Icon.mp3", "Billie Eilish - bad guy (Lyrics).mp3", "
     "The Lonely - Christina Perri"
   ]);
 
+
+  
+  var something = (function() {
+    var executed = false;
+    return function() {
+        if (!executed) {
+            executed = true;
+            // do something
+            setTimeout(function (){
+
+              confetti.start()
+            
+            }, 9000);
+            
+        } else {
+            confetti.start()
+        }
+    };
+})();
+
 function playPause() {
   if (playing) {
     const song = document.querySelector("#song"),
@@ -32,8 +52,9 @@ function playPause() {
 confetti.speed = 3;          //set the particle animation speed
 	//confetti.frameInterval = 20; //the confetti animation frame interval in milliseconds
 	confetti.alpha = 0.8;        //the alpha opacity of the confetti (between 0 and 1, where 1 is opaque and 0 is invisible)
-	//confetti.gradient = false;  
-    confetti.start()
+  //confetti.gradient = false; 
+
+something();
 
     document.getElementById("song-title").innerHTML = "Frohe Weihnachten Baby"
   } else {
