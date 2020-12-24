@@ -56,7 +56,7 @@ confetti.speed = 3;          //set the particle animation speed
 
 something();
 
-    document.getElementById("song-title").innerHTML = "Frohe Weihnachten Baby"
+    document.getElementById("song-title").innerHTML = "Frohe Weihnachten Baby ❤"
   } else {
     pp.src = "http://www.iconarchive.com/download/i91182/icons8/windows-8/Media-Controls-Play.ico";
     song.pause(); //pauses the song
