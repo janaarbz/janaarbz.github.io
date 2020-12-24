@@ -76,6 +76,7 @@ transform: translateX(-50%)
   color: white;
   font-family: "Open Sans", sans-serif;
   text-align: left;
+  display: none;
 }
 
 .video {
