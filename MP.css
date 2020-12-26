@@ -21,7 +21,7 @@ body {
   height: 100%;
   width: 100%;
   margin: auto;
-  top: 900px;
+  top: 700px;
   filter: blur(40px);
 }
 
@@ -30,7 +30,7 @@ body {
   height: 100%;
   width: 100%;
   margin: auto;
-  top: 1500px;
+  top: 700px;
   filter: blur(40px);
 }
 
@@ -71,7 +71,7 @@ transform: translateX(-50%)
   left: 0;
   bottom: 0;
   height: 400px;
-  width: 300px;  
+  width: 340px;  
   top: 570px;
   color: white;
   font-family: "Open Sans", sans-serif;

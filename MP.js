@@ -65,7 +65,7 @@ document.getElementById("container2").style.display = 'block';
     playing = true;
     thumbnail.style.width = "130%";
     confetti.pause()
-    document.getElementById("song-title").innerHTML = "Starte die Musik"
+    document.getElementById("song-title").innerHTML = "Starte die Musik 🎶"
   }
 }
 
